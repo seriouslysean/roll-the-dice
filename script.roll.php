@@ -14,7 +14,7 @@
  * @copyright  Copyright 2013 Splitleaf, LLC
  * @license    http://opensource.org/licenses/MIT
  * @author     Sean Kennedy <sean@splitleaf.net>
- * @version    1.0.0
+ * @version    1.0.1
  */
 
 // Variables
