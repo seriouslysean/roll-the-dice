@@ -18,6 +18,7 @@
  */
 
 // Variables
+mt_srand(crc32(microtime()));
 $_query = "{query}";
 $_output = '';
 $_numDice = 1;
@@ -25,7 +26,7 @@ $_typeDice;
 
 // Just a number? Roll it!
 if (is_numeric($_query)) {
-  $_output .= rand(1, (int)$_query);
+  $_output .= mt_rand(1, (int)$_query);
   die($_output);
 }
 
@@ -43,7 +44,7 @@ if (!empty($_diceRollArr[1]) && (int)$_diceRollArr[1]<0)
 // Do the rolls
 $_typeDice = $_diceRollArr[1];
 for($i=1;$i<=$_numDice;$i++):
-  $_output .= rand(1, (int)$_typeDice);
+  $_output .= mt_rand(1, (int)$_typeDice);
   if($i<$_numDice)
     $_output .= ', ';
 endfor;
