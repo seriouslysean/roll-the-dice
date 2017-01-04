@@ -1,4 +1,4 @@
-<img src="//github.com/seriouslysean/RollTheDice/raw/master/icon.png" width="256" height="256"  />
+![Roll the Dice](icon.png?raw=true)
 
 An Alfred Workflow that allows you to roll dice by using the keyword `roll`. The number and type of die is dynamic and will accept any number. Once confirmed, the result will show up in a large type window.
 
