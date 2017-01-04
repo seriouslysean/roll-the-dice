@@ -1,6 +1,6 @@
 <?php
 /**
- * Splitleaf_RollSomeDice
+ * CodeSerious_RollSomeDice
  *
  * NOTICE OF LICENSE
  *
@@ -9,12 +9,12 @@
  * It is also available through the world-wide-web at this URL:
  * http://opensource.org/licenses/MIT
  *
- * @category   Splitleaf
- * @package    Splitleaf_RollSomeDice
- * @copyright  Copyright 2013 Splitleaf, LLC
+ * @category   CodeSerious
+ * @package    CodeSerious_RollSomeDice
+ * @copyright  Copyright 2017 Splitleaf, LLC
  * @license    http://opensource.org/licenses/MIT
  * @author     Sean Kennedy <sean@splitleaf.net>
- * @version    1.0.1
+ * @version    1.0.2
  */
 
 // Variables
